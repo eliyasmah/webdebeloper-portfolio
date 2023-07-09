@@ -163,5 +163,32 @@ main{
 .resume-info{
     margin: 30px;
 }
-
+.resume-btn{
+    text-align: center;
+}
+/* .......footer section style ........*/
+.footer-container{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    justify-content: space-between;
+    padding: 130px;
+}
+.footer-column{
+    
+    width: 50%;
+}
+.social-links{
+    display: flex;
+    gap: 24px;
+}
+ input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px 5px;
+    font-size: 20px;
+    width: 100%;
+}
 
