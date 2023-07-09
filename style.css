@@ -18,7 +18,8 @@ body{
 }
 /*............... nav style............... */
 header{
-    background-color: #FFF8F3;;
+    background-color: #FFF8F3;
+    padding-bottom: 38px;
 }
 nav{
     display: flex;
@@ -80,4 +81,49 @@ nav a{
 
 .banner-img{
     width: 500px;
+}
+
+/*............ about section style............ */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.about-section{
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 130px;
+    margin: 90px;
+}
+
+.about-section h3{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    text-decoration: underline;
+    margin: 0;
+}
+.about-section> p{
+    margin-top: 15px;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.developer-info{
+    display: flex;
+    justify-content: space-around;
+}
+.developer-info p{
+    color: #757575;
+    margin: 0;
+}
+.developer-info h4{
+    color: #474747;
+    margin: 5px;
+}
+
+/* ........skill section style........... */
+.skill-info{
+    background-color: aqua;
 }
